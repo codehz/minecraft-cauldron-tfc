@@ -1,7 +1,7 @@
 # Minecraft TerraFirmaCraft on Cauldron
 
 These are docker images for Minecraft TerraFirmaCraft running on an
-[Minecraft Cauldron container](https://registry.hub.docker.com/webhippie/minecraft-cauldron/)
+[Minecraft Cauldron container](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron/)
 
 
 ## Usage
@@ -17,21 +17,21 @@ docker exec -ti minecraft-tfc manage help
 
 ## Mods
 
-* [CodeChickenCore 1.0.4.35](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
-* [FastCraft 1.19](http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820)
-* [NotEnoughItems 1.0.4.83](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
-* [TerraFirmaCraft 0.79.15.538](http://terrafirmacraft.com/)
-* [TerraFirmaCraft NEI Plugin 1.3.0.16](http://terrafirmacraft.com/f/topic/6733-171079v11)
-* [Waila 1.5.8a](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289765)
+* Server
+  * [CodeChickenCore 1.0.4.35](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
+  * [FastCraft 1.19](http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820)
+  * [NotEnoughItems 1.0.4.83](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
+  * [TerraFirmaCraft 0.79.15.538](http://terrafirmacraft.com/)
+  * [TerraFirmaCraft NEI Plugin 1.3.0.16](http://terrafirmacraft.com/f/topic/6733-171079v11)
+  * [Waila 1.5.8a](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289765)
+* Client
+  * [Xaero's Minimap 1.3.6](http://www.planetminecraft.com/mod/xaeros-minimap/)
 
 
 ## Versions
 
 * [latest](https://github.com/dockhippie/minecraft-cauldron-tfc/tree/master)
   available as ```webhippie/minecraft-cauldron-tfc:latest``` at
-  [Docker Hub](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron-tfc/)
-* [0.79.15](https://github.com/dockhippie/minecraft-cauldron-tfc/tree/0.79.15)
-  available as ```webhippie/minecraft-cauldron-tfc:0.79.15``` at
   [Docker Hub](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron-tfc/)
 
 
