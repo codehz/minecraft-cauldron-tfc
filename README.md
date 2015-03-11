@@ -18,7 +18,10 @@ docker exec -ti minecraft-tfc manage help
 ## Mods
 
 * Server
+  * [Aroma1997 Core 1.0.2.9](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287828)
+  * [Aroma Backup 0.0.0.5](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287828)
   * [CodeChickenCore 1.0.4.35](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
+  * [Dynmap 2.1](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286593)
   * [FastCraft 1.19](http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820)
   * [NotEnoughItems 1.0.4.83](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
   * [TerraFirmaCraft 0.79.15.538](http://terrafirmacraft.com/)
