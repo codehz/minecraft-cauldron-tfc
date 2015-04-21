@@ -1,7 +1,8 @@
 # Minecraft TerraFirmaCraft on Cauldron
 
 These are docker images for Minecraft TerraFirmaCraft running on an
-[Minecraft Cauldron container](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron/)
+[Minecraft Cauldron container](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron/).
+The cuurrent container size is ```256.6 MB```
 
 
 ## Usage
