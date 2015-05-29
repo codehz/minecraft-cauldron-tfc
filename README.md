@@ -17,7 +17,7 @@ docker exec -ti minecraft-tfc manage help
 
 ## Mods
 
-* Server
+* Both
   * [Aroma1997 Core 1.0.2.9](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287828)
   * [Aroma Backup 0.0.0.5](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287828)
   * [CodeChickenCore 1.0.4.35](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
@@ -27,7 +27,7 @@ docker exec -ti minecraft-tfc manage help
   * [TerraFirmaCraft NEI Plugin 1.3.0.16](http://terrafirmacraft.com/f/topic/6733-171079v11)
   * [Waila 1.5.8a](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289765)
 * Client
-  * [Xaero's Minimap 1.3.6](http://www.planetminecraft.com/mod/xaeros-minimap/)
+  * [VoxelMap 1.5.13](http://www.curse.com/mc-mods/minecraft/225179-voxelmap)
 
 
 ## Versions
