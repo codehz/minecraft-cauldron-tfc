@@ -2,7 +2,6 @@
 
 These are docker images for Minecraft TerraFirmaCraft running on an
 [Minecraft Cauldron container](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron/).
-The cuurrent container size is ```256.6 MB```
 
 
 ## Usage
@@ -22,7 +21,6 @@ docker exec -ti minecraft-tfc manage help
   * [Aroma1997 Core 1.0.2.9](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287828)
   * [Aroma Backup 0.0.0.5](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287828)
   * [CodeChickenCore 1.0.4.35](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
-  * [Dynmap 2.1](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286593)
   * [FastCraft 1.19](http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820)
   * [NotEnoughItems 1.0.4.83](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956)
   * [TerraFirmaCraft 0.79.15.538](http://terrafirmacraft.com/)
@@ -36,6 +34,9 @@ docker exec -ti minecraft-tfc manage help
 
 * [latest](https://github.com/dockhippie/minecraft-cauldron-tfc/tree/master)
   available as ```webhippie/minecraft-cauldron-tfc:latest``` at
+  [Docker Hub](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron-tfc/)
+* [1.0.0](https://github.com/dockhippie/minecraft-cauldron-tfc/tree/master)
+  available as ```webhippie/minecraft-cauldron-tfc:1.0.0``` at
   [Docker Hub](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron-tfc/)
 
 
@@ -57,28 +58,19 @@ ENV SERVER_RCONPWD webhippie
 Usage: manage <command> [<args>]
 
 Some useful manage commands are:
-   bash              Start a shell on container
    commands          List all available sub commands
-   config            Update server config
    console           Start interactive console
    deop              Deop a specific player
-   mcrcon            Execute a remote command
    op                Op a specific player
-   pid               Return the process id of the server
-   prepare           Prepare environment
-   reload            Reload the server
-   running           Check if the server is running
    save-all          Save the current world state
    save-off          Disable the autosave feature
    save-on           Enable the autosave feature
    say               Say something on the server
-   start             Start the server
-   stop              Stop the server
    weather-clear     Set the weather to clear
    weather-rain      Set the weather to rain
    weather-thunder   Set the weather to thunder
-   whitelist         Whitelist on the server
    whitelist-add     Add player to whitelist
+   whitelist-list    Whitelist on the server
    whitelist-off     Disable the whitelist
    whitelist-on      Enable the whitelist
    whitelist-reload  Reload the whitelist
