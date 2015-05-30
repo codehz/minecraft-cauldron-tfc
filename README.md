@@ -8,7 +8,7 @@ These are docker images for Minecraft TerraFirmaCraft running on an
 
 ```
 docker run -v /minecraft/merge -v /minecraft/world -v /minecraft/logs --name minecraft-tfc-data busybox true
-docker run -p 25565:25565 -d --volumes-from minecraft-tfc-data --name minecraft-tfc webhippie/minecraft-cauldron-tfc:latest start
+docker run -p 25565:25565 -d --volumes-from minecraft-tfc-data --name minecraft-tfc webhippie/minecraft-cauldron-tfc:latest
 
 # Execute this for further available commands
 docker exec -ti minecraft-tfc manage help
