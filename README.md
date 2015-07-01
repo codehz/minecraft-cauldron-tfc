@@ -7,8 +7,11 @@ These are docker images for Minecraft TerraFirmaCraft running on an
 ## Usage
 
 ```
-docker run -v /minecraft/merge -v /minecraft/world -v /minecraft/logs --name minecraft-tfc-data busybox true
-docker run -p 25565:25565 -d --volumes-from minecraft-tfc-data --name minecraft-tfc webhippie/minecraft-cauldron-tfc:latest
+docker run --name minecraft-tfc-data busybox true
+docker run -d -p 25565:25565 -p 8123:8123 \
+  --volumes-from minecraft-tfc-data \
+  --name minecraft-tfc \
+  webhippie/minecraft-cauldron-tfc:latest
 
 # Execute this for further available commands
 docker exec -ti minecraft-tfc manage help
@@ -49,6 +52,7 @@ ENV SERVER_MAXPERM 128M
 ENV SERVER_OPTS nogui
 ENV SERVER_MOTD Minecraft
 ENV SERVER_RCONPWD webhippie
+ENV SERVER_DYNMAP true
 ```
 
 
