@@ -1,13 +1,16 @@
 # Minecraft TerraFirmaCraft on Cauldron
 
+[![](https://badge.imagelayers.io/webhippie/minecraft-cauldron-tfc:latest.svg)](https://imagelayers.io/?images=webhippie/minecraft-cauldron-tfc:latest 'Get your own badge on imagelayers.io')
+
 These are docker images for Minecraft TerraFirmaCraft running on an
 [Minecraft Cauldron container](https://registry.hub.docker.com/u/webhippie/minecraft-cauldron/).
 
 
 ## Usage
 
-```
+```bash
 docker run --name minecraft-tfc-data busybox true
+
 docker run -d -p 25565:25565 -p 8123:8123 \
   --volumes-from minecraft-tfc-data \
   --name minecraft-tfc \
